@@ -7,6 +7,7 @@ syn keyword witInterface        interface
 syn keyword witWorld            world
 syn keyword witImport           import
 syn keyword witExport           export
+syn keyword witUse              use
 syn keyword witType             type flags record enum
 syn keyword witPrim             u8 u16 u32 u64 string option list result func tuple
 
@@ -24,6 +25,7 @@ if !exists("did_wit_syntax_inits")
   hi link witWorld                        Keyword
   hi link witImport                       Keyword
   hi link witExport                       Keyword
+  hi link witUse                          Keyword
   hi link witType                         Struct
   hi link witPrim                         Type
 
