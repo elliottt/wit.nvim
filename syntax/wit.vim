@@ -5,7 +5,7 @@ syn match witIdent              "\<[a-z][a-zA-Z0-9-]*"
 syn keyword witPackage          package
 syn keyword witInterface        interface
 syn keyword witType             type flags record enum
-syn keyword witPrim             u8 u16 u32 u64 string option list
+syn keyword witPrim             u8 u16 u32 u64 string option list result func tuple
 
 " Comments
 syn match   witLineComment      "//.*"
